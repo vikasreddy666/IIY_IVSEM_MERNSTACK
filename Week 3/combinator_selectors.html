@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Combinator Selectors</title>
+    <style>
+        /* Descendant */
+        div p { color: red; }
+
+        /* Child */
+        div > span { color: blue; }
+
+        /* Adjacent sibling */
+        h1 + p { color: green; }
+
+        /* General sibling */
+        h1 ~ h2 { color: purple; }
+    </style>
+</head>
+<body>
+
+<div>
+    <p>Descendant Selector</p>
+    <span>Child Selector</span>
+</div>
+
+<h1>Heading</h1>
+<p>Adjacent Sibling</p>
+<h2>General Sibling</h2>
+
+</body>
+</html>
